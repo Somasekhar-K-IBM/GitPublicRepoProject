@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Somasekhar-K-IBM
   gitUsername: Somasekhar-K-IBM
   gitBranch: main
+services:
+- serviceName: project.gitpublicrepo.integrations:getDate
+  packages:
+  - name: GitPublicRepoProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
